@@ -1,0 +1,52 @@
+.Home{
+    flex-grow: 1;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Home .Title{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.Home .Title p{
+    line-height: 50px;
+    font-size: 24px;
+}
+.Home .Title button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #ffff;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background-color: #749427;
+}
+
+
+.Home .Person img{
+    width: 80%;
+}
+.Home .Person{
+    width: 100%;
+    margin-top: 240px;
+}
+
+@media (min-width: 800px){
+    .home{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+.Home .Title, .Home .Person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+}
+.Home .Person img{
+    width: 100px;
+}
+}
