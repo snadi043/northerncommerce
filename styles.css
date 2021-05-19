@@ -226,9 +226,16 @@ body{
          p{
            font-size: 20px;
            text-align: justify;
-           margin: 70px 0px;
+           margin: 75px 0px;
            padding: 0px 25px;
            float: left;
            width: 340px;
          }
+                h4{
+                font-size: 24px;
+                 margin: 0px -5px;
+                 padding: 0px 35px;
+                 float: left;
+                 width: 340px;       
+                }
         }
