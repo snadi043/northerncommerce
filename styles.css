@@ -1,0 +1,234 @@
+
+@import url("https://fonts.google.com/specimen/Montserrat#standard-styles");
+
+/* Styles */
+body{
+        background-color: #282828;
+        margin: 0px 0px;
+        height: 650px;
+      
+    }
+  .in {
+    text-align: center;
+    float: left;
+    padding: 25px 245px;
+    }
+
+    h6{
+        
+        color: #fff;
+        text-align: center;
+        font-family: Montserrat Bold;
+        font-size: 65px;
+    }
+    hr{
+        background-color: #D02035;
+        width: 310px;
+        height: 5px;
+        float: left;
+        margin: -130px 280px;
+        border: none;
+    
+    }
+    form .error {
+    color: #ff0000;
+    padding: 5px 5px;
+  }
+
+  .err{
+        float: left;
+        text-align: right;
+        padding: 0px 435px;
+        font-size: 16px;
+        }
+      
+    p{
+        color: #fff;
+        text-align: justify;
+        font-family: Merrriweather Regular;
+        font-size: 20px;
+        margin: -70px 230px;
+        padding: 0px 65px;
+
+    }
+    input {
+        background-color: #fff;
+        font-family: Merriweather italic;
+        font-size: 16px;
+        color: #797979;
+        width: 400px;
+        height: 45px;
+        text-align: left;
+        padding: 0px 15px;
+
+    }
+    select{
+        background-color: #fff;
+        font-family: Merriweather italic;
+        font-size: 16px;
+        color: #797979;
+        width: 400px;
+        height: 45px;
+        text-align: left;
+        padding: 0px 15px;
+    }
+    .submit{
+        background-color: #D02035;
+        color: #fff;
+        font-family: Merriweather bold;
+        font-size: 20px;
+        text-align: center;
+        width: 850px;
+        height: 45px;
+    }
+    form{
+        padding: 35px 50px;
+        text-align: center;
+        
+    }
+    h4{
+      font-size: 24px;
+      margin: -40px 255px;
+      float: left;
+      width:420px;
+      color: #fff; 
+    }
+
+    
+    /* Portrait and Landscape */
+        @media screen and (max-width: 400px) 
+       { 
+         body{
+           height: 650px;
+           margin: 0px 0px;
+         }
+         .err{
+        float: left;
+        text-align: right;
+        padding: 0px 435px;
+        font-size: 16px;
+        }
+        form .error {
+        color: #ff0000;
+        padding: 5px 5px;
+        margin: 20px -4px;
+        font-size: 16px;
+        }
+      
+        .container{
+          padding: 60px 0px;
+        }
+          .submit{
+           width: 296px;
+           font-size: 16px;
+        } 
+        h6{
+          font-size: 25px;
+        }
+        .in{
+          text-align: center;
+          float:left;
+          padding: 30px 0px;
+          width: 360px;
+        }   
+        input{
+          width: 292px;
+          height: 35px;
+          font-size: 14px;
+          margin: 0px 0px;
+          padding: 5px 0px;
+          float: left;
+        }
+        hr{
+        background-color: #D02035;
+        width: 118px;
+        height: 4px;
+        float: left;
+        margin: -47px 30px;
+        border: none;
+    
+    }
+        select{
+          width: 296px;
+          height: 42px;
+          font-size: 14px;
+          padding: 5px 0px;
+          float: left;
+        }
+        p{
+          font-size: 16px;
+          margin: 0px -5px;
+          padding: 0px 35px;
+          float: left;
+          width: 340px;
+        }
+      }
+    /* Portrait */
+        @media only screen and (max-device-width: 740px) { 
+          
+          body{
+            height: 650px;
+            margin: 0px 0px;
+          }
+          .err{
+         float: left;
+         text-align: right;
+         padding: 0px 435px;
+         font-size: 16px;
+         }
+         form .error {
+         color: #ff0000;
+         padding: 5px 5px;
+         margin: 20px -4px;
+         font-size: 16px;
+         }
+       
+         .container{
+           padding: 60px 0px;
+         }
+           .submit{
+            width: 296px;
+            font-size: 16px;
+         } 
+         h6{
+           font-size: 50px;
+         }
+         .in{
+           text-align: center;
+           float:left;
+           padding: 30px 0px;
+           width: 360px;
+         }   
+         input{
+           width: 292px;
+           height: 35px;
+           font-size: 14px;
+           margin: 0px 0px;
+           padding: 5px 0px;
+           float: left;
+         }
+         hr{
+         background-color: #D02035;
+         width: 270px;
+         height: 4px;
+         float: left;
+         margin: -95px 25px;
+         border: none;
+     
+     }
+         select{
+           width: 296px;
+           height: 42px;
+           font-size: 14px;
+           padding: 5px 0px;
+           float: left;
+         }
+         p{
+           font-size: 20px;
+           text-align: justify;
+           margin: 70px 0px;
+           padding: 0px 25px;
+           float: left;
+           width: 340px;
+         }
+        }
